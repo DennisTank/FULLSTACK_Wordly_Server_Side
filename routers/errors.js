@@ -1,0 +1,11 @@
+const errors = {
+  SSE: "SERVER_SIDE_ERROR",
+  LOGIN: "INVALID_USERNAME_OR_PASSWORD",
+  SIGNIN: {
+    BOTH: "USERNAME_AND_EMAIL_BOTH_ALREADY_EXIST",
+    E: "EMAIL_ALREADY_EXIST",
+    UN: "USERNAME_ALREADY_EXIST",
+  },
+};
+
+export default errors;
